@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("app.js included");const e=document.querySelector(".root");setTimeout((()=>{e.textContent="It works!"}),4e3);new class{constructor(e){this.element=e}change(e){setTimeout((()=>{this.element.textContent=e}),8e3)}}(e).change("Текст из метода change класса Example")})();
